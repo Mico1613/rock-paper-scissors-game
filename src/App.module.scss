@@ -3,3 +3,13 @@
   width: 100vw;
   background-color: var(--background);
 }
+
+.wrapper {
+  max-width: var(--desktop);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  padding-top: 50px;
+}

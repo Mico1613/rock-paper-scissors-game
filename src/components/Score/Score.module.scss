@@ -1,0 +1,26 @@
+.container {
+  width: 150px;
+  height: 115px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  user-select: none;
+
+  .text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--score-text);
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .score {
+    color: var(--dark-text);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 700;
+  }
+}
