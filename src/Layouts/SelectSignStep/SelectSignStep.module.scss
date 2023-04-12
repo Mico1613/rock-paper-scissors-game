@@ -1,0 +1,29 @@
+.wrapper {
+  padding-top: 75px;
+}
+
+.relative {
+  position: relative;
+
+  .sign {
+    position: absolute;
+  }
+
+  .paper {
+    top: -50%;
+    left: -50%;
+    transform: translate(50%, 25%);
+  }
+
+  .scissors {
+    top: -50%;
+    right: -50%;
+    transform: translate(-50%, 25%);
+  }
+
+  .rock {
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--background);
+  overflow: hidden;
 }
 
 .wrapper {
@@ -12,4 +13,10 @@
 
 .container {
   padding-top: 50px;
+}
+
+.main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
